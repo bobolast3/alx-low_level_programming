@@ -21,10 +21,12 @@ else
 putchar(c);
 }
 c++;
-if (c == 10){
+if (c == 10)
+{
 c='a';
 }
 }
 putchar('\n');
 return (0);
 }
+

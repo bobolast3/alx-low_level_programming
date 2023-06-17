@@ -1,5 +1,5 @@
 #include <stdio.h>
-11;rgb:0000/0000/0000#include <time.h>
+#include <time.h>
 #include <stdlib.h>
 /**
  * main - Entry point of the program

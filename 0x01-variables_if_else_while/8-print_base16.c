@@ -23,7 +23,7 @@ putchar(c);
 c++;
 if (c == 10)
 {
-c='a';
+c = 'a';
 }
 }
 putchar('\n');

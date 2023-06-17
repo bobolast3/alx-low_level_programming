@@ -10,14 +10,15 @@
  */
 int main(void)
 {
-int i;
-char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-while (i < 26)
+char c = 'a';
+while (c <= 'z')
 {
-putchar(alphabet[i]);
-i++;
+putchar(c);
+c++;
 }
 putchar('\n');
-return (0);
+return 0;
 }
+
+
 

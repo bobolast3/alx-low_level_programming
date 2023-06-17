@@ -1,5 +1,4 @@
 #include <stdio.h>
-11;rgb:0000/0000/0000#include <time.h>
 #include <stdlib.h>
 /**
  * main - Entry point of the program
@@ -12,7 +11,6 @@ int main(void)
 {
 int n;
 int last;
-srand(time(0));
 n = rand() - RAND_MAX / 2;
 last = n % 10;
 if (last > 5)

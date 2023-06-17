@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <time.h>
 #include <stdlib.h>
 /**
  * main - Entry point of the program
@@ -17,7 +16,7 @@ putchar(c);
 c++;
 }
 putchar('\n');
-return 0;
+return (0);
 }
 
 

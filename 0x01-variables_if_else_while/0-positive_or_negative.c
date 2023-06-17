@@ -11,16 +11,16 @@
 
 int main(void)
 {
-int n;
-n = rand() - RAND_MAX / 2;
-if (n < 0){
- printf("is negative");
-}
-else if (n == 0){
- printf("is zero");
-}
-else if (n > 0){
- printf("is positive");
-}
- return (0);
+  int n;
+  n = rand() - RAND_MAX / 2;
+  if (n < 0){
+    printf("%d is negative", n);
+  }
+  else if (n == 0){
+    printf("%d is zero", n);
+  }
+  else if (n > 0){
+    printf("%d is positive", n);
+  }
+  return (0);
 }

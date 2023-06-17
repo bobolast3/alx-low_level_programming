@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <time.h>
+11;rgb:0000/0000/0000#include <time.h>
 #include <stdlib.h>
 /**
  * main - Entry point of the program
@@ -27,5 +27,5 @@ else if (last == 0)
 {
 printf("Last digit of %d is %d and is 0", n, last);
 }
-return 0;
+ return (0);
 }

@@ -12,11 +12,12 @@ int main(void)
 char c = 'a';
 while (c != 1)
 {
-putchar(c);
 if (c == 'z')
 {
+putchar(c);
 c = 'A';
 }
+putchar(c);
 if (c == 'Z')
 {
 break;

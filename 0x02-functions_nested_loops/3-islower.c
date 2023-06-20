@@ -3,10 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * Description: 'the program's description'
- * @parameter: c something
+ * _islower - Checks if a character is lowercase
+ * @c: The character to be checked
  *
- * Return: Always 1 (Success)
+ * Return: 1 if @c is lowercase, 0 otherwise
  */
 int _islower(int c)
 {

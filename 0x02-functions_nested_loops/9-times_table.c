@@ -1,11 +1,10 @@
 #include "main.h"
 /**
  * times_table - Checks if a number is a single digit.
- * 
- *
  * Return: 1 if the number is a single digit, 0 othe
  */
-void times_table(void) {
+void times_table(void)
+{
 int i = 0;
 int j = 0;
 while (i < 10)
@@ -17,14 +16,15 @@ if (j > 1 && n < 10)
 {
 _putchar(' ');
 }
-if (n < 10) {
-if (j == 1 )
+if (n < 10)
+{
+if (j == 1)
 {
 _putchar(' ');
 }
 _putchar(n + '0');
-} 
-else 
+}
+else
 {
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');

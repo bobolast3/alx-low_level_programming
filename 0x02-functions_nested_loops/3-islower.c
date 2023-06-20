@@ -3,12 +3,10 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * int _islower (int c) - c _islower
- *
- * Description: int _islower something
+ * Description: 'the program's description'
  * @parameter: c something
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int _islower(int c)
 {

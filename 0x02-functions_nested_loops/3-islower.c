@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <string.h>
 /**
- * int _islower(int c) - Entry point of the program
+ * int _islower (int c) - c _islower
  *
  * Description: Prints a message using puts()
  *
@@ -13,7 +13,7 @@ int _islower(int c)
 {
 if (c >= 97 && c <= 122)
 {
-return 1;
+return (1);
 }
 return (0);
 }

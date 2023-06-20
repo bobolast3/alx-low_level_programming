@@ -1,5 +1,8 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
+
 /**
  * main - Entry point of the program
  *
@@ -9,6 +12,15 @@
  */
 int main(void)
 {
-printf("_putchar\n");
+char str[] = "_putchar";
+int length = strlen(str);
+int i = 0;
+while (i < length)
+{
+putchar(str[i]);
+i++;
+}
+putchar("\n");
 return (0);
+}
 }

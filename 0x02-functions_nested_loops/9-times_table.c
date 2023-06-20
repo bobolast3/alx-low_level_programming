@@ -3,7 +3,7 @@
  * times_table - Checks if a number is a single digit.
  * 
  *
- * Return: 1 if the number is a single digit, 0 otherwise.
+ * Return: 1 if the number is a single digit, 0 othe
  */
 void times_table(void) {
 int i = 0;
@@ -34,4 +34,18 @@ if (j < 9)
 {
 _putchar(',');
 _putchar(' ');
+}
+j++;
+}
+i++;
+j = 0;
+_putchar('\n');
+}
+}
+j++;
+}
+i++;
+j = 0;
+putchar('\n');
+}
 }

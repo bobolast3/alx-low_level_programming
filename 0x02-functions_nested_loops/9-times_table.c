@@ -17,15 +17,14 @@ if (j > 1 && n < 10)
 {
 _putchar(' ');
 }
-if (n < 10)
-{
+if (n < 10) {
 if (j == 1 )
 {
 _putchar(' ');
 }
 _putchar(n + '0');
-}
-else
+} 
+else 
 {
 _putchar((n / 10) + '0');
 _putchar((n % 10) + '0');
@@ -40,12 +39,5 @@ j++;
 i++;
 j = 0;
 _putchar('\n');
-}
-}
-j++;
-}
-i++;
-j = 0;
-putchar('\n');
 }
 }

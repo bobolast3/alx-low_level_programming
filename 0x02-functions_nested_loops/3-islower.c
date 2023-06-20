@@ -5,7 +5,8 @@
 /**
  * int _islower (int c) - c _islower
  *
- * Description: Prints a message using puts()
+ * Description: int _islower something
+ * @parameter: c something
  *
  * Return: Always 0 (Success)
  */

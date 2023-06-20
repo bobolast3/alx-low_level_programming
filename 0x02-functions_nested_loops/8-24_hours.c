@@ -37,11 +37,11 @@ m2 = (m2 + 1) % 10;
 }
 if (h1 == 2 && h2 == 3 && m1 == 5 && m2 == 9)
 {
-putchar(h1 + '0');
-putchar(h2 + '0');
-putchar(':');
-putchar(m1 + '0');
-putchar(m2 + '0');
-putchar('\n');
+_putchar(h1 + '0');
+_putchar(h2 + '0');
+_putchar(':');
+_putchar(m1 + '0');
+_putchar(m2 + '0');
+_putchar('\n');
 }
 }

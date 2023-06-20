@@ -1,11 +1,8 @@
 #include "main.h"
 /**
  * jack_bauer - Writes a character to the standard output (stdout)
- * 
- *
  * Return: On success, returns the number of characters written. On error,
  *         -1 is returned, and errno is set appropriately.
- *
  */
 void jack_bauer(void)
 {

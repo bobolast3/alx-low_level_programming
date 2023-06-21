@@ -1,5 +1,4 @@
 #include "main.h"
-11;rgb:0000/0000/0000
 /**
  * largest_number - returns the largest of 3 numbers
  * @a: first integer

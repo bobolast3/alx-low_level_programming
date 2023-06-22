@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
- * main - prints a square followed by a new line
- * Returns - 0
+ * main - check the code
+ *
+ * Return: Always 0.
  */
 int main(void)
 {

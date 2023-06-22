@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - check the code
  *
@@ -25,6 +26,5 @@ else
 printf("%d ", i);
 }
 }
-printf("\n");
 return (0);
 }

@@ -7,7 +7,7 @@
  * This function takes two pointers to integers as parameters and swaps
  * the values they point to.
  */
-void swap_int(int *a, int *b) 
+void swap_int(int *a, int *b)
 {
 int temp = *a;
 *a = *b;

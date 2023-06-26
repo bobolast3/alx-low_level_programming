@@ -27,7 +27,7 @@ else
 {
 start_index = (length - 1) / 2;
 }
-i = start_index;
+int i = start_index;
 while (str[i] != '\0')
 {
 _putchar(str[i]);

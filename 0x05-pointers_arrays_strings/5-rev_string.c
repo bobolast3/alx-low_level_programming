@@ -6,19 +6,20 @@
  * This function takes a pointer to a string and reverses the characters
  * in the string in-place.
  *
- * Return: None.
+ * Return: None
  */
 void rev_string(char *s)
 {
+int length = 0;
+int start = 0;
+int end;
 if (s == NULL)
 return;
-int length = 0;
 while (s[length] != '\0')
 {
 length++;
 }
-int start = 0;
-int end = length - 1;
+end = length - 1;
 while (start < end)
 {
 char temp = s[start];

@@ -3,8 +3,10 @@
  * leet - Encodes a string into 1337.
  * @str: Pointer to the string.
  *
- * This function replaces specific letters in the string with their corresponding
- * 1337 encoding: a/A -> 4, e/E -> 3, o/O -> 0, t/T -> 7, l/L -> 1.
+ * This function replaces specific letters in the string
+ * with their corresponding
+ * 1337 encoding: a/A -> 4, e/E -> 3,
+ * o/O -> 0, t/T -> 7, l/L -> 1.
  *
  * Return: Pointer to the resulting string.
  */
@@ -24,5 +26,5 @@ break;
 }
 }
 }
-return str;
+return (str);
 }

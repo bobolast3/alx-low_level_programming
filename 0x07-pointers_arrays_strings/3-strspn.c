@@ -7,7 +7,7 @@
  *
  * This function calculates the
  * length of the longest initial segment of the
- * string s that consists entirely of characters
+ * string s that consists entirely of charactersadsadddddddddddddddddddddddddddddddddsadsad
  * from the string accept.
  *
  * Return: The number of bytes in the initial
@@ -36,5 +36,5 @@ count++;
 s++;
 accept = accept - count + 1;
 }
-return count;
+return (count);
 }

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 void _putchar(char);
-void simple_print_buffer(char *buffer, unsigned int size)
+void simple_print_buffer(char *buffer, unsigned int size);
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);

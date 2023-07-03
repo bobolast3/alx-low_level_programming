@@ -7,7 +7,7 @@
  *
  * This function calculates the
  * length of the longest initial segment of the
- * string s that consists entirely of charactersadsadddddddddddddddddddddddddddddddddsadsad
+ * string s that consists entirely of characters
  * from the string accept.
  *
  * Return: The number of bytes in the initial

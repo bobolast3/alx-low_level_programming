@@ -1,5 +1,5 @@
 #include <stdio.h>
-11;rgb:0000/0000/0000#include <stdlib.h>
+#include <stdlib.h>
 /**
  * main - Entry point of the program
  * @argc: The number of command line arguments
@@ -9,9 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-int num1;
-int num2;
-int result;
+int num1, num2, result;
 if (argc != 3)
 {
 printf("Error\n");
@@ -19,4 +17,5 @@ return (1);
 }
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
+return (0);
 }

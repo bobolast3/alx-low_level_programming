@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib.h>
+11;rgb:0000/0000/0000#include <stdlib.h>
 /**
  * main - Entry point of the program
  * @argc: The number of command line arguments
@@ -19,7 +19,4 @@ return (1);
 }
 num1 = atoi(argv[1]);
 num2 = atoi(argv[2]);
-result = num1 * num2;
-printf("%d\n", result);
-return (0);
 }

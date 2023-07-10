@@ -15,7 +15,8 @@ char *duplicate;
 int length, i;
 if (str == NULL)
 return (NULL);
-for (length = 0; str[length] != '\0'; length++);
+for (length = 0; str[length] != '\0'; length++)
+;
 duplicate = malloc(sizeof(char) * (length + 1));
 if (duplicate == NULL)
 return (NULL);

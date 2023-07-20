@@ -3,7 +3,8 @@
 #include "variadic_functions.h"
 /**
  * print_all - Prints anything based on the format
- * @format: List of types of arguments passed to the function
+ * @format: List of types of arguments
+ * passed to the function
  */
 void print_all(const char * const format, ...)
 {
@@ -15,7 +16,7 @@ va_start(args, format);
 while (format != NULL && format[i] != '\0')
 {
 if (separator != '\0' && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's'))
-printf("%c", separator);
+printf("%c ", separator);
 switch (format[i])
 {
 case 'c':

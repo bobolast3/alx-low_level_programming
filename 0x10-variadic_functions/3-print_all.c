@@ -6,28 +6,32 @@ void print_all(const char * const format, ...)
 va_list args;
 unsigned int i = 0;
 char *str;
-char separator = '\0';
-char flag = 0;
+const char *separator = "";
 va_start(args, format);
 while (format != NULL && format[i] != '\0')
 {
-if (flag && (format[i] == 'c' || format[i] == 'i' || format[i] == 'f' || format[i] == 's'))
-printf("%c ", separator);
-flag = 1;
-if (format[i] == 'c')
-printf("%c", va_arg(args, int));
-else if (format[i] == 'i')
-printf("%d", va_arg(args, int));
-else if (format[i] == 'f')
-printf("%f", va_arg(args, double));
-else if (format[i] == 's')
+switch (format[i])
 {
+case 'c':
+printf("%s%c", separator, va_arg(args, int));
+break;
+case 'i':
+printf("%s%d", separator, va_arg(args, int));
+break;
+case 'f':
+printf("%s%f", separator, va_arg(args, double));
+break;
+case 's':
 str = va_arg(args, char *);
 if (str == NULL)
-printf("(nil)");
+printf("%s(nil)", separator);
 else
-printf("%s", str);
+printf("%s%s", separator, str);
+break;
+default:
+break;
 }
+separator = ", ";
 i++;
 }
 va_end(args);
